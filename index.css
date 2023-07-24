@@ -7,6 +7,221 @@
 a {
     text-decoration: none;
 }
-button {
-    cursor: pointer;
+
+/* INSTRUCTOR */
+#instructor .title h1 {
+    position: relative;
+}
+#instructor .title h1 span {
+    color: #ff6e65;
+}
+#instructor .title h1::before {
+    content: "";
+    background: #b7b7b7;
+    width: 60px;
+    height: 4px;
+    position: absolute;
+    right: 0;
+    margin: 0 auto;
+    left: -20px;
+    bottom: -8px;
+}
+#instructor .title h1::after {
+    content: "";
+    background: #b7b7b7;
+    width: 60px;
+    height: 4px;
+    position: absolute;
+    right: 0;
+    margin: 0 auto;
+    left: 20px;
+    bottom: -15px;
+}
+
+.instructor_content {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 10px;
+    text-align: center;
+}
+.instructor_content img {
+    width: 100%;
+}
+.instructor_name {
+    padding: 20px;
+}
+.instructor_name *{
+    margin: auto;
+}
+.instructor_img {
+    position: relative;
+    overflow: hidden;
+}
+.instructoer_overlay {
+    width: 100%;
+    background: rgb(8 8 8 / 29%);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    transform: translateY(100%);
+    transition: 0.5s;
+}
+.instructor_content:hover .instructoer_overlay {
+    transform: translateY(0);
+}
+.instructoer_overlay i {
+    color: #0d369f;
+    background: white;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    margin: 5px;
+    transition: 0.3s;
+}
+.instructoer_overlay i:hover {
+    background: rgba(255, 255, 255,0.5);
+}
+.instructor_name a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #060606;
+    font-weight: 700;
+}
+.instructor_name p {
+    color: #707070;
+}
+.instructor_content:hover .instructor_name a {
+    color: #ff6e65;
+}
+/* CONTACT */
+#contact {
+    margin-bottom: 100px;
+}
+#contact h3 {
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+#contact p {
+    color: #707070;
+    margin-bottom: 16px;
+}
+#contact button {
+    background-color: #ff6e65;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 700;
+    transition: 0.5s;
+}
+#contact button:hover {
+    background-color: #0d369f;
+}
+
+/* FOOTER */
+#footer {
+    background-color: #060e1f;
+    position: relative;
+}
+/* SUBSCRIBE */
+.footer_subscribe {
+    margin: 0px 100px;
+    padding: 20px 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: white;
+    position: absolute;
+    transform: translateY(-50%);
+}
+.footer_subscribe h3 {
+    font-weight: 800;
+}
+.footer_subscribe p {
+    color: #707070;
+}
+.footer_subscribe .btn {
+    background-color: #0d369f;
+    color: white;
+    font-size: 16px;
+    padding: 16px 30px;
+}
+.footer_subscribe input{
+    font-size: 16px;
+    padding: 16px 30px;
+    height: 100%;
+}
+
+/* INFO */
+.footer_info {
+    padding-top: 100px;
+}
+#footer ul {
+    list-style: none;
+}
+#footer h4 {
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: solid 0.1px rgba(255, 255, 255,0.1);
+}
+#footer li, a, p {
+    margin: 10px 0px;
+    font-size: 14px;
+    color: #cecece;
+}
+#footer li i {
+    margin-right: 10px;
+}
+#footer .social a {
+    margin: 0px;
+}
+#footer .social i {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    margin: 5px;
+}
+#footer a:hover {
+    color: white;
+    text-decoration: none;
+}
+#footer .col-lg-4.col-sm-6 {
+    border-left: solid 0.1px rgba(255, 255, 255,0.1);
+}
+.footer_copyright {
+    font-size: 13px;
+    text-align: center;
+    color: #040a17;
+    color: #a0a0a0;
+}
+.footer_copyright a {
+    color: white;
+}
+/* BACK TO TOP */
+.back2top {
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 10px;
+    background: #4867b0;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    color: white;
+    opacity: 0;
+    transition: 0.5s;
+}
+.cd-top--is-visible {
+    visibility: visible;
+    opacity: 1;
 }
