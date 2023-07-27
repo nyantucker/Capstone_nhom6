@@ -23,7 +23,7 @@ button {
 }
 
 #product {
-    /* margin-top: -4rem; */
+    margin-top: -4rem;
 }
 
 .product-item i {
@@ -101,7 +101,7 @@ h3.title-main span {
 }
 
 .service-body span {
-    color: #0d369f;
+    color: #4867b0;
     background-color:rgb(13 54 159 / 9%);
     width: 70px;
     height: 70px;
@@ -137,7 +137,7 @@ h3.title-main span {
 }
 
 .feature-icon i{
-    color: #0d369f;
+    color: #4867b0;
     background-color:rgb(13 54 159 / 9%);
     width: 65px;
     height: 66px;
@@ -209,4 +209,10 @@ h3.title-main span {
 .feedback-info p {
     margin: 0;
     font-size: 14px;
+}
+
+@media (max-width : 991px) {
+    .counter {
+        border: none;
+    }
 }
