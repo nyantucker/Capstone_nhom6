@@ -22,6 +22,322 @@ button {
     cursor: pointer;
 }
 
+
+
+
+/* DUY */
+
+
+.header1 {
+    background-color: #0d369f;
+    padding: 5px 15px;
+    color: white;
+  }
+.header1_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+.header_container ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    color: white;
+    text-align: left;
+    margin-bottom: 0px;
+  }
+
+.header1 ul li {
+    margin-right: 20px;
+    font-size: 700;
+}
+.header_container ul li a {
+    color: white;
+    transition: 0.5s;
+}
+.header_container ul li a:hover {
+    color: #ff6e65;
+}
+.header1 .container_icon i {
+    transition: 0.5s;
+}
+.header1 .container_icon i:hover {
+    color: #ff6e65;
+}
+
+  /* .header_container a, */
+
+.container_icon i {
+    color: white;
+    margin: 15px;
+    font-size: 12px;
+  }
+  
+
+.navbar-expand-lg .navbar-nav .dropdown-menu:before {
+    content: '';
+    width: 14px;
+    height: 14px;
+    background: white;
+    border: 1px solid rgba(0,0,0,.15);
+    display: block;
+    border-right: none;
+    border-bottom: none;
+    transform: translateX(-50%) rotateZ(45deg);
+    position: absolute;
+    top: -7px;
+    left: 49%;
+    z-index: 1001;
+}
+
+.navbar-brand {
+    font-size: 26px;
+    color: #0d369f;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.navbar-brand:hover {
+    color: #ff6e65;
+}
+
+.navbar .dropdown-item {
+    width: 100%;
+    margin: 0;
+    color: #060606;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.navbar .dropdown-item:hover {
+    color: #ff6e65;
+}
+
+.navbar-light {
+    font-weight: 600;
+}
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #ff6e65;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #060606;
+    transition: 0.5s;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ff6e65;
+}
+
+
+.container_item1 {
+    display: flex;
+    justify-content: space-between;
+  }
+.container_item1 a {
+    margin-left: 30px;
+    line-height: 2.5;
+  }
+.carousel-inner h5 {
+    font-size: 70px;
+    line-height: 80px;
+    font-weight: bold;
+    text-align: left;
+  }
+.btn-style {
+    padding: 14px 30px;
+    font-weight: 600;
+    font-size: 16px;
+    color: black;
+    border-radius: 4px;
+    background: white;
+    border: none;
+    margin-right: 85%;
+  }
+  
+.container_carousel {
+    color: white;
+    margin-top: 25px;
+    font-size: 24px;
+    border-radius: 8px;
+    margin-top: 25px;
+  }
+.container_right i,
+  a {
+    color: white;
+  }
+.container_list {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+  }
+
+.navbar .form-inline {
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    overflow: hidden;
+  }
+.navbar .form-inline input {
+    border: none;
+    color: #ccc;
+}
+
+.navbar .form-inline button {
+    border: none;
+    color: #0d369f;
+    font-weight: 700;
+}
+
+
+/* Light theme */
+#myBody {
+    background-color: white;
+    color: black;
+  }
+  #switchButton {
+    background-color: white;
+  }
+  #switchButton .fa-sun {
+    display: none;
+  }
+  #switchButton .fa-moon {
+    display: block;
+  }
+  
+  /* Dark Theme*/
+  .dark#myBody {
+    background-color: 
+    #161c2d;
+  }
+  .dark #switchButton {
+    background-color: 
+    #161c2d;
+    color: white;
+  }
+  .dark #switchButton .fa-sun {
+    display: block;
+    color: white;
+  }
+  
+  .dark #switchButton .fa-moon {
+    display: none;
+  }
+  .dark .footer_subscribe {
+    background-color: 
+    #161c2d;
+    color: white;
+  }
+ .dark * {
+    color: white;
+ }
+.dark .navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Carousel */
+.carousel-indicators {
+    flex-direction: column;
+}
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+
+.carousel-inner {
+    position: relative;
+}
+
+.carousel-caption {
+    position: absolute;
+    transform: translateY(-50%);
+}
+
+.carousel-inner::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0,0.3);
+    z-index: 1;
+}
+
+.carousel-indicators li {
+    opacity: 1;
+}
+.carousel-indicators .active {
+    background-color:#ff6e65 ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MINH PHUONG */
 #product {
     margin-top: -4rem;
 }
