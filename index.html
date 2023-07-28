@@ -1,317 +1,564 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- Font Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-<head>
-  <title>Title</title>
-  <!-- Required meta tags -->
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-  <!-- Font Family -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet" />
-  <!-- Font awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
- 
-  <!--  CSS -->
-  <link rel="stylesheet" href="./index.css" />
-</head>
+    <!--  CSS -->
+    <link rel="stylesheet" href="./index.css" />
+  </head>
 
-<body>
-  <!-- Start Header -->
-  <section id="header"></section>
-  <!-- Start Banner - Carousel -->
-  <section id="banner"></section>
-  <!-- Start Product --> 
-  <section id="product" class="pb-lg-5">
-    <div class="container">
-      <div class="row text-center">
-        <div class="col-lg-3 col-md-6 px-lg-2 mt-3">
-          <div class="product-item color1">
-            <i class="fa fa-cogs"></i>
-            <h4><a href="" class="title-head">Engineering & Architecture</a></h4>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 px-lg-2 mt-3">
-          <div class="product-item color2">
-            <i class="fa fa-book"></i>
-            <h4><a href="" class="title-head">Learning Management</a></h4>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 px-lg-2 mt-md-3 mt-3">
-          <div class="product-item color3">
-            <i class="fa fa-coffee"></i>
-            <h4><a href="" class="title-head">Business & Management</a></h4>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 px-lg-2 mt-md-3 mt-3">
-          <div class="product-item color4">
-            <i class="fa fa-hourglass-half"></i>
-            <h4><a href="" class="title-head">Artificial Intelligence</a></h4>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Start Service -->
-  <section id="service" class="py-5">
-    <div class="container py-md-5 py-4">
-      <div class="service-title pb-sm-4 mb-5 text-center">
-        <h3 class="title-main mx-auto">
-          Welcome to
-          <span>Studious</span>
-        </h3>
-      </div>
-      <div class="row text-center justify-content-center">
-        <div class="col-lg-4 col-sm-6">
-          <div class="service-body">
-            <div class="service-img">
-              <span class="fa fa-graduation-cap"></span>
+  <body>
+    <!-- Start Header -->
+    <section id="header"></section>
+    <!-- Start Banner - Carousel -->
+    <section id="banner"></section>
+    <!-- Start Product -->
+    <section id="product" class="pb-lg-5">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-lg-3 col-md-6 px-lg-2 mt-3">
+            <div class="product-item color1">
+              <i class="fa fa-cogs"></i>
+              <h4>
+                <a href="" class="title-head">Engineering & Architecture</a>
+              </h4>
             </div>
           </div>
-          <div class="service-info mt-4">
-            <a href="">
-              <h3 class="service-info-title">Trending Courses</h3>
-            </a>
-            <p class="text-secondary mt-3">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <div class="service-body">
-            <div class="service-img">
-              <span class="fa fa-users"></span>
+          <div class="col-lg-3 col-md-6 px-lg-2 mt-3">
+            <div class="product-item color2">
+              <i class="fa fa-book"></i>
+              <h4><a href="" class="title-head">Learning Management</a></h4>
             </div>
           </div>
-          <div class="service-info mt-4">
-            <a href="">
-              <h3 class="service-info-title">Certified Teachers</h3>
-            </a>
-            <p class="text-secondary mt-3">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <div class="service-body">
-            <div class="service-img">
-              <span class="fa fa-book"></span>
+          <div class="col-lg-3 col-md-6 px-lg-2 mt-md-3 mt-3">
+            <div class="product-item color3">
+              <i class="fa fa-coffee"></i>
+              <h4><a href="" class="title-head">Business & Management</a></h4>
             </div>
           </div>
-          <div class="service-info mt-4">
-            <a href="">
-              <h3 class="service-info-title">Books & Library</h3>
-            </a>
-            <p class="text-secondary mt-3">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Start Feature -->
-  <section id="feature">
-    <div class="py-5 container px-0">
-      <div class="feature-grid py-4">
-        <div class="row">
-          <div class="col-xl-4"></div>
-          <div class="col-xl-8">
-            <div class="row">
-              <div class="col-md-6 px-4 mt-4">
-                <div class="feature-item d-flex align-items-center">
-                  <div class="feature-icon">
-                    <i class="fa fa-american-sign-language-interpreting text-center"></i>
-                  </div>
-                  <div class="feature-title">
-                    <h5>Flexible Classes</h5>
-                    <p>Lorem ipsum dolor sit amet, dolor elit.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 mt-4  px-4">
-                <div class="feature-item d-flex align-items-center">
-                  <div class="feature-icon">
-                    <i class="fa fa-download text-center"></i>
-                  </div>
-                  <div class="feature-title">
-                    <h5>Offline Mode</h5>
-                    <p>Lorem ipsum dolor sit amet, dolor elit.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 mt-4  px-4">
-                <div class="feature-item d-flex align-items-center">
-                  <div class="feature-icon">
-                    <i class="fa fa-headphones text-center"></i>
-                  </div>
-                  <div class="feature-title">
-                    <h5>Educator Help</h5>
-                    <p>Lorem ipsum dolor sit amet, dolor elit.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 mt-4  px-4">
-                <div class="feature-item d-flex align-items-center">
-                  <div class="feature-icon">
-                    <i class="fa fa-play-circle text-center"></i>
-                  </div>
-                  <div class="feature-title">
-                    <h5>Online Classes</h5>
-                    <p>Lorem ipsum dolor sit amet, dolor elit.</p>
-                  </div>
-                </div>
-              </div>
+          <div class="col-lg-3 col-md-6 px-lg-2 mt-md-3 mt-3">
+            <div class="product-item color4">
+              <i class="fa fa-hourglass-half"></i>
+              <h4><a href="" class="title-head">Artificial Intelligence</a></h4>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- Start number -->
-  <section id="number" class="py-5">
-    <div class="container py-4">
-      <div class="number-title text-center mx-auto mb-5">
-        <h3 class="title-main">
-          Strength in
-          <span>Numbers</span>
-        </h3>
-        <p class="mt-4 pt-md-2">
-          Similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
-        </p>
-      </div>
-      <div class="number-countup">
+    </section>
+    <!-- Start Service -->
+    <section id="service" class="py-5">
+      <div class="container py-md-5 py-4">
+        <div class="service-title pb-sm-4 mb-5 text-center">
+          <h3 class="title-main mx-auto">
+            Welcome to
+            <span>Studious</span>
+          </h3>
+        </div>
         <div class="row text-center justify-content-center">
-          <div class="col-lg-3 col-sm-6">
-            <div class="counter">
-              <span class="number-counter">
-                6,300
-              </span>
-              <p class="number-text">LEARNERS & COUNTING</p>
+          <div class="col-lg-4 col-sm-6">
+            <div class="service-body">
+              <div class="service-img">
+                <span class="fa fa-graduation-cap"></span>
+              </div>
+            </div>
+            <div class="service-info mt-4">
+              <a href="">
+                <h3 class="service-info-title">Trending Courses</h3>
+              </a>
+              <p class="text-secondary mt-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
+                eiusmod te incididunt
+              </p>
             </div>
           </div>
-          <div class="col-lg-3 col-sm-6">
-            <div class="counter">
-              <span class="number-counter">
-                638
-              </span>
-              <p class="number-text">TOTAL COURSES</p>
+          <div class="col-lg-4 col-sm-6">
+            <div class="service-body">
+              <div class="service-img">
+                <span class="fa fa-users"></span>
+              </div>
+            </div>
+            <div class="service-info mt-4">
+              <a href="">
+                <h3 class="service-info-title">Certified Teachers</h3>
+              </a>
+              <p class="text-secondary mt-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
+                eiusmod te incididunt
+              </p>
             </div>
           </div>
-          <div class="col-lg-3 col-sm-6">
-            <div class="counter">
-              <span class="number-counter">
-                7,600
-              </span>
-              <p class="number-text">SUCCESSFUL STUDENTS</p>
+          <div class="col-lg-4 col-sm-6">
+            <div class="service-body">
+              <div class="service-img">
+                <span class="fa fa-book"></span>
+              </div>
             </div>
-          </div>
-          <div class="col-lg-3 col-sm-6">
-            <div class="counter  border-right-0">
-              <span class="number-counter">
-                36
-              </span>
-              <p class="number-text">LANGUAGES</p>
+            <div class="service-info mt-4">
+              <a href="">
+                <h3 class="service-info-title">Books & Library</h3>
+              </a>
+              <p class="text-secondary mt-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
+                eiusmod te incididunt
+              </p>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- Start feedback -->
-  <section id="feedback" class="py-5">
-    <div class="container py-4">
-      <div class="feedback-title pb-sm-4 mb-5 text-center">
-        <h3 class="title-main mx-auto">
-          Student Community
-          <span>Feedback</span>
-        </h3>
+    </section>
+    <!-- Start Feature -->
+    <section id="feature">
+      <div class="py-5 container px-0">
+        <div class="feature-grid py-4">
+          <div class="row">
+            <div class="col-xl-4"></div>
+            <div class="col-xl-8">
+              <div class="row">
+                <div class="col-md-6 px-4 mt-4">
+                  <div class="feature-item d-flex align-items-center">
+                    <div class="feature-icon">
+                      <i
+                        class="fa fa-american-sign-language-interpreting text-center"
+                      ></i>
+                    </div>
+                    <div class="feature-title">
+                      <h5>Flexible Classes</h5>
+                      <p>Lorem ipsum dolor sit amet, dolor elit.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 mt-4 px-4">
+                  <div class="feature-item d-flex align-items-center">
+                    <div class="feature-icon">
+                      <i class="fa fa-download text-center"></i>
+                    </div>
+                    <div class="feature-title">
+                      <h5>Offline Mode</h5>
+                      <p>Lorem ipsum dolor sit amet, dolor elit.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 mt-4 px-4">
+                  <div class="feature-item d-flex align-items-center">
+                    <div class="feature-icon">
+                      <i class="fa fa-headphones text-center"></i>
+                    </div>
+                    <div class="feature-title">
+                      <h5>Educator Help</h5>
+                      <p>Lorem ipsum dolor sit amet, dolor elit.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 mt-4 px-4">
+                  <div class="feature-item d-flex align-items-center">
+                    <div class="feature-icon">
+                      <i class="fa fa-play-circle text-center"></i>
+                    </div>
+                    <div class="feature-title">
+                      <h5>Online Classes</h5>
+                      <p>Lorem ipsum dolor sit amet, dolor elit.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="row justify-content-center">
-          <div class="col-lg-4 col-md-6 mt-4">
-              <div class="feedback-item">
-                <span class="fa fa-quote-left"></span>
-                <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit.</p>
-                <div class="feedback-customer">
-                  <div class="feedback-img">
-                      <img src="https://wp.w3layouts.com/studious/wp-content/themes/studious/assets/images/testi2.jpg" alt="">
-                  </div>
-                  <div class="feedback-info">
-                    <h5>Petey Cruis</h5>
-                    <p>Caption Here</p>
-                  </div>
-                </div>
+    </section>
+    <!-- Start number -->
+    <section id="number" class="py-5">
+      <div class="container py-4">
+        <div class="number-title text-center mx-auto mb-5">
+          <h3 class="title-main">
+            Strength in
+            <span>Numbers</span>
+          </h3>
+          <p class="mt-4 pt-md-2">
+            Similique sunt in culpa qui officia deserunt mollitia animi, id est
+            laborum et dolorum fuga.
+          </p>
+        </div>
+        <div class="number-countup">
+          <div class="row text-center justify-content-center">
+            <div class="col-lg-3 col-sm-6">
+              <div class="counter">
+                <span class="number-counter"> 6,300 </span>
+                <p class="number-text">LEARNERS & COUNTING</p>
               </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mt-4">
-              <div class="feedback-item">
-                <span class="fa fa-quote-left"></span>
-                <p> Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit.</p>
-                <div class="feedback-customer">
-                  <div class="feedback-img">
-                      <img src="https://wp.w3layouts.com/studious/wp-content/themes/studious/assets/images/testi1.jpg" alt="">
-                  </div>
-                  <div class="feedback-info">
-                    <h5>Molive Joe</h5>
-                    <p>Caption Here</p>
-                  </div>
-                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="counter">
+                <span class="number-counter"> 638 </span>
+                <p class="number-text">TOTAL COURSES</p>
               </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mt-4">
-              <div class="feedback-item">
-                <span class="fa fa-quote-left"></span>
-                <p> Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit.</p>
-                <div class="feedback-customer">
-                  <div class="feedback-img">
-                      <img src="https://wp.w3layouts.com/studious/wp-content/themes/studious/assets/images/testi3.jpg" alt="">
-                  </div>
-                  <div class="feedback-info">
-                    <h5>Paige Turner</h5>
-                    <p>Caption Here</p>
-                  </div>
-                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="counter">
+                <span class="number-counter"> 7,600 </span>
+                <p class="number-text">SUCCESSFUL STUDENTS</p>
               </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="counter border-right-0">
+                <span class="number-counter"> 36 </span>
+                <p class="number-text">LANGUAGES</p>
+              </div>
+            </div>
           </div>
+        </div>
       </div>
-    </div>
-  </section>
-  <!-- Start instructor -->
-  <section id="instructor"></section>
-  <!-- Start contact -->
-  <section id="contact"></section>
-  <!-- Start footer -->
-  <section id="footer"></section>
-  <!-- Back To Top Button -->
-  <div id="backtotop"></div>
-  <!-- Optional JavaScript -->
-   <!-- Jquery -->
- <!-- Waypoint   -->
- 
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js" integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="./Counting-Up-To-Numerical-Values-On-Scroll-jQuery-Countup-js/jquery.countup.min.js"></script>
-  <script>
-    $('.number-counter').countUp({
-      'time': 10000,
-      });
-  </script>
-  <script src="./index.js"></script>
-</body>
+    </section>
+    <!-- Start feedback -->
+    <section id="feedback" class="py-5">
+      <div class="container py-4">
+        <div class="feedback-title pb-sm-4 mb-5 text-center">
+          <h3 class="title-main mx-auto">
+            Student Community
+            <span>Feedback</span>
+          </h3>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-4 col-md-6 mt-4">
+            <div class="feedback-item">
+              <span class="fa fa-quote-left"></span>
+              <p>
+                Nam libero tempore, cum soluta nobis est eligendi optio cumque
+                nihil impedit.
+              </p>
+              <div class="feedback-customer">
+                <div class="feedback-img">
+                  <img
+                    src="https://wp.w3layouts.com/studious/wp-content/themes/studious/assets/images/testi2.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="feedback-info">
+                  <h5>Petey Cruis</h5>
+                  <p>Caption Here</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-4">
+            <div class="feedback-item">
+              <span class="fa fa-quote-left"></span>
+              <p>
+                Nam libero tempore, cum soluta nobis est eligendi optio cumque
+                nihil impedit.
+              </p>
+              <div class="feedback-customer">
+                <div class="feedback-img">
+                  <img
+                    src="https://wp.w3layouts.com/studious/wp-content/themes/studious/assets/images/testi1.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="feedback-info">
+                  <h5>Molive Joe</h5>
+                  <p>Caption Here</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-4">
+            <div class="feedback-item">
+              <span class="fa fa-quote-left"></span>
+              <p>
+                Nam libero tempore, cum soluta nobis est eligendi optio cumque
+                nihil impedit.
+              </p>
+              <div class="feedback-customer">
+                <div class="feedback-img">
+                  <img
+                    src="https://wp.w3layouts.com/studious/wp-content/themes/studious/assets/images/testi3.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="feedback-info">
+                  <h5>Paige Turner</h5>
+                  <p>Caption Here</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Start instructor -->
+    <section id="instructor">
+      <div class="container">
+        <div class="title pb-5">
+          <h1 class="text-center">World Class <span>Instructors</span></h1>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-sm-12">
+            <div class="instructor_container">
+              <div class="instructor_content">
+                <div class="instructor_img">
+                  <img src="./img/team1.jpg" alt="" />
+                  <div class="instructoer_overlay">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                  </div>
+                </div>
+                <div class="instructor_name">
+                  <a href="#">Olive Yew</a>
+                  <p>Teaches Design</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-12">
+            <div class="instructor_container">
+              <div class="instructor_content">
+                <div class="instructor_img">
+                  <img src="./img/team2.jpg" alt="" />
+                  <div class="instructoer_overlay">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                  </div>
+                </div>
+                <div class="instructor_name">
+                  <a href="#">Aida Joe</a>
+                  <p>UI/UX Designer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-12">
+            <div class="instructor_container">
+              <div class="instructor_content">
+                <div class="instructor_img">
+                  <img src="./img/team3.jpg" alt="" />
+                  <div class="instructoer_overlay">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                  </div>
+                </div>
+                <div class="instructor_name">
+                  <a href="#">Teri Dac</a>
+                  <p>Teaches Skills</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-12">
+            <div class="instructor_container">
+              <div class="instructor_content">
+                <div class="instructor_img">
+                  <img src="./img/team4.jpg" alt="" />
+                  <div class="instructoer_overlay">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                  </div>
+                </div>
+                <div class="instructor_name">
+                  <a href="#">Anton Bne</a>
+                  <p>Web Designer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Start contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-lg-5">
+            <img src="./img/contact.png" alt="" />
+          </div>
+          <div class="col-lg-7">
+            <h3>
+              Not Sure Where to Begin? <br />Contact Now, We will Help you
+            </h3>
+            <p>
+              Consectetur adipiscing elit. Aliquam sit amet efficitur
+              tortor.Uspendisse efficitur orci urna. In et augue ornare, tempor
+              massa in, luctus sapien.
+            </p>
+            <button class="btn mt-3" href="contact">Contact Us</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Start footer -->
+    <section id="footer">
+      <div class="container">
+        <div class="footer_subscribe">
+          <div class="row align-items-center">
+            <div class="col-6">
+              <h3>Subscribe Us to join our Community</h3>
+              <p>Newsletter</p>
+            </div>
+            <div class="col-6">
+              <div
+                class="form-group d-flex align-items-center justify-content-center"
+              >
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter your email"
+                />
+                <button class="btn">Send</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer_info">
+          <div class="row">
+            <div class="col-lg-2 col-sm-6">
+              <h4>ARCHIVES</h4>
+              <a href="#"><i class="fa fa-angle-double-right"></i>April 2021</a>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <h4>CATEGORIES</h4>
+              <ul>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-angle-double-right"></i>Business</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-angle-double-right"></i>Creative</a
+                  >
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-angle-double-right"></i>Design</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-angle-double-right"></i>Food</a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-angle-double-right"></i>Industry</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <h4>CONTACT</h4>
+              <ul>
+                <li>
+                  <a href="#"
+                    ><i class="las la-envelope"></i>info@example.com</a
+                  >
+                </li>
+                <li>
+                  <a href="#"><i class="las la-phone"></i>+44-000-888-999</a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-map-marker-alt"></i>London, 235 Terry,
+                    10001</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <h4>ABOUT</h4>
+              <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+                quae ab.
+              </p>
+              <div class="social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer_copyright">
+          <p>
+            © 2023 Studious. All Rights Reserved | WordPress Theme by
+            <a href="#">W3Layouts.</a>
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Back To Top Button -->
+    <div id="backtotop"></div>
+    <!-- Optional JavaScript -->
+    <!-- Jquery -->
+    <!-- Waypoint   -->
 
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"
+      integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- Count UP -->
+    <script src="./Counting-Up-To-Numerical-Values-On-Scroll-jQuery-Countup-js/jquery.countup.min.js"></script>
+    <script>
+      $(".number-counter").countUp({
+        time: 10000,
+      });
+    </script>
+    <script src="./index.js"></script>
+    <!-- Back to top  -->
+    <a
+      href="#"
+      class="back2top cd-top text-replace js-cd-top cd-top--is-visible"
+    >
+      <i class="las la-level-up-alt"></i>
+    </a>
+    <script src="./back-to-top-master/assets/js/util.js"></script>
+    <script src="./back-to-top-master/assets/js/main.js"></script>
+  </body>
 </html>
