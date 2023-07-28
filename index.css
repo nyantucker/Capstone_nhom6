@@ -126,7 +126,7 @@ button {
     color: #ff6e65;
 }
 
-
+/* CAROUSEL */
 .container_item1 {
     display: flex;
     justify-content: space-between;
@@ -170,7 +170,7 @@ button {
   }
 
 .navbar .form-inline {
-    border: 1px solid #ccc;
+    border: 2px solid #ccc;
     border-radius: 30px;
     overflow: hidden;
   }
@@ -190,63 +190,82 @@ button {
 #myBody {
     background-color: white;
     color: black;
-  }
-  #switchButton {
+}
+#switchButton {
     background-color: white;
-  }
-  #switchButton .fa-sun {
+}
+#switchButton .fa-sun {
     display: none;
-  }
-  #switchButton .fa-moon {
+}
+#switchButton .fa-moon {
     display: block;
-  }
+}
   
-  /* Dark Theme*/
-  .dark#myBody {
+/* Dark Theme*/
+.dark#myBody {
     background-color: 
     #161c2d;
-  }
-  .dark #switchButton {
+}
+.dark #switchButton {
     background-color: 
     #161c2d;
     color: white;
-  }
-  .dark #switchButton .fa-sun {
+}
+.dark #switchButton .fa-sun {
     display: block;
     color: white;
-  }
+}
   
-  .dark #switchButton .fa-moon {
+.dark #switchButton .fa-moon {
     display: none;
-  }
-  .dark .footer_subscribe {
+}
+.dark .footer_subscribe {
     background-color: 
     #161c2d;
     color: white;
-  }
- .dark * {
-    color: white;
- }
-.dark .navbar-light .navbar-nav .nav-link {
+}
+.dark * {
     color: white;
 }
 
+ .dark .navbar-light .navbar-nav .active>.nav-link {
+    color: #ff6e65;
+}
+.dark .navbar-light .navbar-nav .nav-link {
+    color: white;
+    transition: 0.5s;
+}
+.dark .navbar-light .navbar-nav .nav-link:hover {
+    color: #ff6e65;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.dark .feature-item {
+    background: #161c2d;
+}
+.dark .feature-item h5 {
+    color: white;
+}
+.dark .navbar .form-inline input {
+    background-color: #161c2d;
+}
+.dark .carousel-caption i{
+    color: black;
+}
+.dark .carousel-caption .btn {
+    color: black;
+}
+.dark .header1 {
+    background-color: #4867b0;
+}
+.dark .feedback-info h5 {
+    color: white;
+}
+.dark .feature-item span {
+    color: white;
+}
+.dark .instructor_name a {
+    color: white;
+}
 /* Carousel */
 .carousel-indicators {
     flex-direction: column;
@@ -267,6 +286,7 @@ button {
     transform: translateY(-50%);
 }
 
+
 .carousel-inner::before {
     content: "";
     width: 100%;
@@ -286,58 +306,7 @@ button {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* MINH PHUONG */
+/* PRODUCT */
 #product {
     margin-top: -4rem;
 }
@@ -440,9 +409,10 @@ h3.title-main span {
     color: #ff6e65;
 }
 
+/* FEATURE */
 #feature {
     background: url(https://wp.w3layouts.com/studious/wp-content/themes/studious/assets/images/bg3.jpg) no-repeat;
-    background-position: top center;
+    background-position: bottom;
     background-size: cover;
 }
 
@@ -475,6 +445,8 @@ h3.title-main span {
     margin-bottom: 0;
 }
 
+/* NUMBER */
+
 .number-title {
     max-width: 700px;
 }
@@ -487,8 +459,10 @@ h3.title-main span {
     border-right: 1px solid #eee;
 }
 
+/* FEEDBACK */
+
 .row .feedback-item {
-    box-shadow: 0 20px 62px #0414451a;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding: 2rem;
     border-radius: 4px;
 }
@@ -498,6 +472,7 @@ h3.title-main span {
     color: #ff6e65;
     line-height: .8;
     display: inline-block;
+    
 }
 
 .feedback-item p::before {
@@ -547,7 +522,7 @@ h3.title-main span {
     content: "";
     background: #b7b7b7;
     width: 60px;
-    height: 4px;
+    height: 2px;
     position: absolute;
     right: 0;
     margin: 0 auto;
@@ -558,7 +533,7 @@ h3.title-main span {
     content: "";
     background: #b7b7b7;
     width: 60px;
-    height: 4px;
+    height: 2px;
     position: absolute;
     right: 0;
     margin: 0 auto;
@@ -734,6 +709,10 @@ h3.title-main span {
 .footer_copyright a {
     color: white;
 }
+.footer_copyright P {
+    margin: 0;
+}
+
 /* BACK TO TOP */
 .back2top {
     text-align: center;
@@ -752,4 +731,7 @@ h3.title-main span {
 .cd-top--is-visible {
     visibility: visible;
     opacity: 1;
+}
+#backtotop a:hover {
+    color: white;
 }
